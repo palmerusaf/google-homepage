@@ -1,0 +1,11 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-shadow: 2px 2px 2.5px white;
+    font-size: 3em;
+    font-family: sans-serif;
+}
+body{
+    background-color: #000;
+}
