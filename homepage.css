@@ -2,10 +2,7 @@ body{
     background-color: white;
     font-family: 'Liberation Sans';
 }
-#nav-bar{
-    font-size: 14px;
-    font-weight: 400;
-}
+
 
 ul {
     list-style-type: none;
@@ -15,6 +12,15 @@ ul {
   li{
     display: inline;
   }
+  a {
+      color: black;
+      text-decoration: none;
+  }
+  a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
 /* Rules for sizing the icon. */
 .material-icons.md-18 { font-size: 18px; }
 
@@ -25,3 +31,48 @@ ul {
 /* Rules for using icons as white on a dark background. */
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.flex-center {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.margin-left{
+    margin-left: auto;
+}
+#g-logo{
+    padding: 3em;
+}
+
+#nav-bar{
+    font-size: 13px;
+    font-weight: 400;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+#footer{
+    padding: 1em;
+}
+#sign-in-button{
+    background-color: rgb(26, 115, 232);
+    border-radius: 4px;
+    padding: 9px 23px;
+    text-align: center;
+    font-family: "Nimbus Sans";
+    font-weight: 500;
+    word-spacing: .25px;
+    font-size: 14px;
+    color: white;
+}
+#sign-in-button:hover{
+    background-color: #2b7de9;
+}
+
+#sign-in-button-text{
+color: white;
+}
+#sign-in-button-text:hover{
+    text-decoration: none;
+}
+
