@@ -20,7 +20,9 @@ ul {
     color: black;
     text-decoration: underline;
 }
-
+input[type=text]{
+    border-style: hidden;
+}
 /* Rules for sizing the icon. */
 .material-icons.md-18 { font-size: 18px; }
 
@@ -37,14 +39,14 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+.flex-center input{
+    
+    border-color: white;
+}
 .margin-left{
     margin-left: auto;
 }
-#g-logo{
-    padding: 3em;
-}
-
-#nav-bar{
+.nav-bar{
     font-size: 13px;
     font-weight: 400;
     padding: 1em;
@@ -52,8 +54,21 @@ align-items: center;
     justify-content: space-between;
     position: relative;
 }
-#nav-bar li {
+.nav-bar li {
     padding-right: 15px;
+}
+#g-logo{
+    padding: 2em;
+}
+#search-border{
+    display: flex;
+    border: #dfe1e5;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 25px;
+    width: 807px;
+    height: 44px;
+
 }
 #footer{
     padding: 1em;
