@@ -153,13 +153,20 @@ footer a:hover{
 }
 
 #search-border {
-    display: flex;
     border: #dfe1e5;
     border-width: thin;
     border-style: solid;
     border-radius: 25px;
-    width: 807px;
+    width: 50%;
     height: 44px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#flex-left{
+    display: flex;
+    align-items: center; 
+    padding-left: 0.5em;
 }
 #buttons{
 
