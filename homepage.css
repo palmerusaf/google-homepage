@@ -31,8 +31,30 @@ input[type=text]:focus-visible{
     outline: none;
 }
 
-/* Rules for sizing the icon. */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    height: 47px;
+}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
 
+}
+footer li{
+    margin-right: 1em;
+}
+footer a{
+    font-size: 14px;
+    color: #71767b;
+    align-self: center;
+}
+footer a:hover{
+    color: #71767b;
+}
 .material-icons.md-18 {
     font-size: 18px;
 }
@@ -57,19 +79,7 @@ input[type=text]:focus-visible{
     color: rgba(255, 255, 255, 0.3);
 }
 
-.flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.flex-center input {
-    border-color: white;
-}
-
-.margin-left {
-    margin-left: auto;
-}
 
 .nav-bar {
     font-size: 13px;
@@ -83,7 +93,15 @@ input[type=text]:focus-visible{
 .nav-bar li {
     padding-right: 15px;
 }
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.flex-center input {
+    border-color: white;
+}
 .flex-center button {
     padding-left: 16px;
     padding-right: 16px;
@@ -143,8 +161,9 @@ input[type=text]:focus-visible{
     width: 807px;
     height: 44px;
 }
+#buttons{
 
-
-#footer {
-    padding: 1em;
+    padding-top: 1.75em;
+    padding-bottom: 1.75em;
+    
 }
