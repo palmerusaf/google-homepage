@@ -1,52 +1,77 @@
-body{
+body {
     background-color: white;
     font-family: 'Liberation Sans';
 }
-
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
-  li{
+}
+
+li {
     display: inline;
-  }
-  a {
-      color: black;
-      text-decoration: none;
-  }
-  a:hover {
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
     color: black;
     text-decoration: underline;
 }
-input[type=text]{
+
+input[type=text] {
     border-style: hidden;
+    height: 34px;
 }
+input[type=text]:focus-visible{
+    outline: none;
+}
+
 /* Rules for sizing the icon. */
-.material-icons.md-18 { font-size: 18px; }
+
+.material-icons.md-18 {
+    font-size: 18px;
+}
 
 /* Rules for using icons as black on a light background. */
-.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
-.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+.material-icons.md-dark {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+    color: rgba(0, 0, 0, 0.26);
+}
 
 /* Rules for using icons as white on a dark background. */
-.material-icons.md-light { color: rgba(255, 255, 255, 1); }
-.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.material-icons.md-light {
+    color: rgba(255, 255, 255, 1);
+}
+
+.material-icons.md-light.md-inactive {
+    color: rgba(255, 255, 255, 0.3);
+}
 
 .flex-center {
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.flex-center input{
-    
+
+.flex-center input {
     border-color: white;
 }
-.margin-left{
+
+.margin-left {
     margin-left: auto;
 }
-.nav-bar{
+
+.nav-bar {
     font-size: 13px;
     font-weight: 400;
     padding: 1em;
@@ -54,26 +79,34 @@ align-items: center;
     justify-content: space-between;
     position: relative;
 }
+
 .nav-bar li {
     padding-right: 15px;
 }
-#g-logo{
-    padding: 2em;
-}
-#search-border{
-    display: flex;
-    border: #dfe1e5;
-    border-width: thin;
-    border-style: solid;
-    border-radius: 25px;
-    width: 807px;
-    height: 44px;
 
+.flex-center button {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: #f8f9fa;
+    border-style: none;
+    font-family: 'Liberation Sans';
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 27px;
+    height: 34px;
+    border-radius: 5px;
 }
-#footer{
-    padding: 1em;
+.flex-center button:hover{
+    border:#dadce0;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    box-shadow: 0 1px #ececec;
 }
-#sign-in-button{
+
+#sign-in-button {
     background-color: rgb(26, 115, 232);
     border-radius: 4px;
     padding: 9px 23px;
@@ -84,14 +117,34 @@ align-items: center;
     font-size: 14px;
     color: white;
 }
-#sign-in-button:hover{
+
+#sign-in-button:hover {
     background-color: #2b7de9;
 }
 
-#sign-in-button-text{
-color: white;
+#sign-in-button-text {
+    color: white;
 }
-#sign-in-button-text:hover{
+
+#sign-in-button-text:hover {
     text-decoration: none;
 }
 
+#g-logo {
+    padding: 2em;
+}
+
+#search-border {
+    display: flex;
+    border: #dfe1e5;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 25px;
+    width: 807px;
+    height: 44px;
+}
+
+
+#footer {
+    padding: 1em;
+}
