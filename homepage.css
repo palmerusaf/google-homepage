@@ -50,6 +50,10 @@ align-items: center;
     padding: 1em;
     display: flex;
     justify-content: space-between;
+    position: relative;
+}
+#nav-bar li {
+    padding-right: 15px;
 }
 #footer{
     padding: 1em;
