@@ -19,3 +19,10 @@ Hard Mode
 * Create a search results page
 
 ## What I have learned during this project:
+* How to use flexboxes to center items
+* How to use nested div elements to modify stlying
+* How to created background element with shadowing and rounded corners
+* How to import and use Google icons
+* How to manage project to do list with time management tracking software
+* How to branch, clone, merge, revert, commit, resolve merge conflicts, and delete branches in GIT
+* How to create pull requests, merge, resolve merge requests, commit, and delete branches on Github
