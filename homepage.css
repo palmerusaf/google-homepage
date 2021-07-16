@@ -1,60 +1,140 @@
-body{
+body {
     background-color: white;
     font-family: 'Liberation Sans';
 }
-
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
-  li{
+}
+
+li {
     display: inline;
-  }
-  a {
-      color: black;
-      text-decoration: none;
-  }
-  a:hover {
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
     color: black;
     text-decoration: underline;
 }
 
-/* Rules for sizing the icon. */
-.material-icons.md-18 { font-size: 18px; }
+input[type=text] {
+    border-style: hidden;
+    height: 34px;
+}
+input[type=text]:focus-visible{
+    outline: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    height: 47px;
+}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 1em;
+}
+footer li{
+    margin-right: 1em;
+}
+footer a{
+    font-size: 14px;
+    color: #71767b;
+    align-self: center;
+}
+footer a:hover{
+    color: #71767b;
+}
+.material-icons.md-18 {
+    font-size: 18px;
+}
 
 /* Rules for using icons as black on a light background. */
-.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
-.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+.material-icons.md-dark {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+    color: rgba(0, 0, 0, 0.26);
+}
 
 /* Rules for using icons as white on a dark background. */
-.material-icons.md-light { color: rgba(255, 255, 255, 1); }
-.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
 
-.flex-center {
-display: flex;
-justify-content: center;
-align-items: center;
-}
-.margin-left{
-    margin-left: auto;
-}
-#g-logo{
-    padding: 3em;
+.material-icons.md-light {
+    color: rgba(255, 255, 255, 1);
 }
 
-#nav-bar{
+.material-icons.md-light.md-inactive {
+    color: rgba(255, 255, 255, 0.3);
+}
+.material-icons.md-apps{
+    color: #5f6368;
+}
+
+
+.nav-bar {
     font-size: 13px;
     font-weight: 400;
     padding: 1em;
     display: flex;
     justify-content: space-between;
 }
-#footer{
-    padding: 1em;
+
+.nav-bar li {
+    padding-right: 15px;
 }
-#sign-in-button{
+.nav-bar span {
+    position: absolute;
+    margin: -.2em -0.5em;
+}
+.nav-bar span:hover{
+    background-color: #eff0f0;
+    border-radius: 100%;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center input {
+    border-color: white;
+}
+.flex-center button {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: #f8f9fa;
+    border-style: none;
+    font-family: 'Liberation Sans';
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 27px;
+    height: 34px;
+    border-radius: 5px;
+}
+.flex-center button:hover{
+    border:#dadce0;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    box-shadow: 0 1px #ececec;
+}
+
+#sign-in-button {
     background-color: rgb(26, 115, 232);
     border-radius: 4px;
     padding: 9px 23px;
@@ -65,14 +145,44 @@ align-items: center;
     font-size: 14px;
     color: white;
 }
-#sign-in-button:hover{
+
+#sign-in-button:hover {
     background-color: #2b7de9;
 }
 
-#sign-in-button-text{
-color: white;
+#sign-in-button-text {
+    color: white;
 }
-#sign-in-button-text:hover{
+
+#sign-in-button-text:hover {
     text-decoration: none;
+}
+
+#g-logo {
+    padding: 2em;
+}
+
+#search-border {
+    border: #dfe1e5;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 25px;
+    width: 50%;
+    height: 44px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#search-border:hover{
+    box-shadow: 0 2px 3px 0.5px #71767b88;
+}
+#flex-left{
+    display: flex;
+    align-items: center; 
+    padding-left: 0.5em;
+}
+#buttons{
+    padding-top: 1.75em;
+    padding-bottom: 1.75em;
 }
 
