@@ -42,7 +42,7 @@ footer ul{
     display: flex;
     justify-content: space-between;
     position: relative;
-
+    padding-top: 1em;
 }
 footer li{
     margin-right: 1em;
@@ -78,7 +78,9 @@ footer a:hover{
 .material-icons.md-light.md-inactive {
     color: rgba(255, 255, 255, 0.3);
 }
-
+.material-icons.md-apps{
+    color: #5f6368;
+}
 
 
 .nav-bar {
@@ -87,12 +89,20 @@ footer a:hover{
     padding: 1em;
     display: flex;
     justify-content: space-between;
-    position: relative;
 }
 
 .nav-bar li {
     padding-right: 15px;
 }
+.nav-bar span {
+    position: absolute;
+    margin: -.2em -0.5em;
+}
+.nav-bar span:hover{
+    background-color: #eff0f0;
+    border-radius: 100%;
+}
+
 .flex-center {
     display: flex;
     justify-content: center;
@@ -163,14 +173,16 @@ footer a:hover{
     justify-content: flex-start;
     align-items: center;
 }
+#search-border:hover{
+    box-shadow: 0 2px 3px 0.5px #71767b88;
+}
 #flex-left{
     display: flex;
     align-items: center; 
     padding-left: 0.5em;
 }
 #buttons{
-
     padding-top: 1.75em;
     padding-bottom: 1.75em;
-    
 }
+
