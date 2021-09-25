@@ -130,10 +130,7 @@ footer a:hover{
     border-radius: 5px;
 }
 .flex-center button:hover{
-    border:#dadce0;
-    border-style: solid;
-    border-width: thin;
-    border-radius: 5px;
+    outline: solid thin #dadce0;
     box-shadow: 0 1px #ececec;
 }
 
